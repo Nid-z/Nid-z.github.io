@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jirah T. Nidoy | Portfolio</title>
+  <meta name="description" content="Portfolio of Jirah T. Nidoy, BS Information Technology graduate from STI College Baguio, focused on web development, applied machine learning, and the SENYASK Filipino Sign Language web app." />
+  <meta property="og:title" content="Jirah T. Nidoy | Portfolio" />
+  <meta property="og:description" content="BSIT graduate · Web development & applied machine learning · Lead developer of SENYASK, a Filipino Sign Language recognition web app." />
+  <meta property="og:image" content="assets/senyask/d_translator.jpg" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <span class="brand-title">My <span>Portfolio</span></span>
+      <span class="brand-sub">Showcasing My Academic Work</span>
+    </div>
+
+    <div class="avatar">
+      <img src="assets/profile.jpg" alt="Photo of Jirah T. Nidoy" onerror="this.remove()" />
+      <span aria-hidden="true">JN</span>
+    </div>
+
+    <div class="identity">
+      <h2>Jirah T. Nidoy</h2>
+      <p class="role">BS Information Technology</p>
+      <p class="school">STI College Baguio</p>
+    </div>
+
+    <nav class="nav" aria-label="Sections">
+      <a href="#about" class="active"><svg viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>About Me</a>
+      <a href="#skills"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>Skills</a>
+      <a href="#projects"><svg viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>Projects</a>
+      <a href="#certifications"><svg viewBox="0 0 24 24"><path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></svg>Certifications</a>
+      <a href="#contact"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>Contact</a>
+    </nav>
+
+    <div class="socials">
+      
+      <a href="https://github.com/Nid-z" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg></a>
+      <a href="mailto:jirah.nidoy@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
+    </div>
+  </aside>
+
+  <header class="topbar">
+    <span class="brand-title">My <span>Portfolio</span></span>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="sidebar">
+      <svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
+  </header>
+  <div class="scrim" id="scrim"></div>
+
+  <main class="main">
+
+    <section id="about" class="section hero">
+      <p class="eyebrow">About Me</p>
+      <h1>Hi, I'm Jirah. I build web apps and the machine learning behind them.</h1>
+      <p class="lead">
+        I'm a newly graduated <strong>BS Information Technology</strong> student from STI College Baguio,
+        with hands-on experience in web development, database management, and applied machine learning.
+        My capstone, <strong>SENYASK</strong>, recognizes Filipino Sign Language straight from a webcam, entirely in the browser.
+        I'm adaptable, eager to learn, and looking to grow within a development team.
+      </p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#projects">View my work</a>
+        <a class="btn ghost" href="assets/Nidoy_Jirah_Resume.pdf" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M12 3v12m0 0-4-4m4 4 4-4M5 21h14"/></svg>Download résumé
+        </a>
+      </div>
+
+      <div class="facts">
+        <div class="fact"><span class="k">Based in</span><span class="v">La Trinidad, Benguet</span></div>
+        <div class="fact"><span class="k">Degree</span><span class="v">BS Information Technology</span></div>
+        <div class="fact"><span class="k">Focus</span><span class="v">Web · Applied ML</span></div>
+        <div class="fact"><span class="k">Honors</span><span class="v">Dean's List 2025</span></div>
+      </div>
+
+      <div class="grid-2 timeline-wrap">
+        <div class="card">
+          <h3 class="card-h"><svg viewBox="0 0 24 24"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></svg>Education</h3>
+          <ul class="timeline">
+            <li>
+              <span class="when">Aug 2023 – Jun 2027</span>
+              <strong>Bachelor of Science in Information Technology</strong>
+              <span class="where">STI College Baguio</span>
+            </li>
+            <li>
+              <span class="when">2022</span>
+              <strong>Senior High School, TVL-ICT</strong>
+              <span class="where">Easter College, Baguio City · Special Academic Award</span>
+            </li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3 class="card-h"><svg viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/></svg>Experience</h3>
+          <ul class="timeline">
+            <li>
+              <span class="when">May 2022 – Nov 2023</span>
+              <strong>Assistant I.T. Specialist</strong>
+              <span class="where">E-Precision</span>
+              <ul class="bullets">
+                <li>Updated and maintained CRM records to keep customer and sales data accurate.</li>
+                <li>Performed basic programming tasks to support internal tools and workflows.</li>
+                <li>Monitored inventory sales and quota tracking for day-to-day operations.</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <p class="eyebrow">Skills</p>
+      <h2 class="section-title">What I work with</h2>
+      <div class="skills-grid">
+        <div class="card skill-card">
+          <h3 class="card-h"><svg viewBox="0 0 24 24"><path d="m8 6-6 6 6 6M16 6l6 6-6 6"/></svg>Languages</h3>
+          <div class="chips"><span class="chip"><img src="assets/icons/python.svg" alt="" width="16" height="16" />Python</span><span class="chip"><img src="assets/icons/javascript.svg" alt="" width="16" height="16" />JavaScript</span><span class="chip"><img src="assets/icons/openjdk.svg" alt="" width="16" height="16" />Java</span><span class="chip"><img src="assets/icons/code.svg" alt="" width="16" height="16" />Visual Basic</span></div>
+        </div>
+        <div class="card skill-card">
+          <h3 class="card-h"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg>Web &amp; Frontend</h3>
+          <div class="chips"><span class="chip"><img src="assets/icons/react.svg" alt="" width="16" height="16" />React</span><span class="chip"><img src="assets/icons/vite.svg" alt="" width="16" height="16" />Vite</span><span class="chip"><img src="assets/icons/dotnet.svg" alt="" width="16" height="16" />Razor (ASP.NET)</span><span class="chip"><img src="assets/icons/html5.svg" alt="" width="16" height="16" />HTML &amp; CSS</span></div>
+        </div>
+        <div class="card skill-card">
+          <h3 class="card-h"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/></svg>Data &amp; Machine Learning</h3>
+          <div class="chips"><span class="chip"><img src="assets/icons/tree.svg" alt="" width="16" height="16" />Extra Trees / Random Forest</span><span class="chip"><img src="assets/icons/cpu.svg" alt="" width="16" height="16" />In-browser ML</span><span class="chip"><img src="assets/icons/mediapipe.svg" alt="" width="16" height="16" />MediaPipe</span><span class="chip"><img src="assets/icons/googlegemini.svg" alt="" width="16" height="16" />Gemini API</span></div>
+        </div>
+        <div class="card skill-card">
+          <h3 class="card-h"><svg viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg>Tools &amp; Platforms</h3>
+          <div class="chips"><span class="chip"><img src="assets/icons/firebase.svg" alt="" width="16" height="16" />Firebase</span><span class="chip"><img src="assets/icons/mysql.svg" alt="" width="16" height="16" />MySQL</span><span class="chip"><img src="assets/icons/cloudflareworkers.svg" alt="" width="16" height="16" />Cloudflare Workers</span><span class="chip"><img src="assets/icons/github.svg" alt="" width="16" height="16" />Git &amp; GitHub</span><span class="chip"><img src="assets/icons/contacts.svg" alt="" width="16" height="16" />CRM Systems</span><span class="chip"><img src="assets/icons/network.svg" alt="" width="16" height="16" />Networking (CCNA)</span></div>
+        </div>
+        <div class="card skill-card wide">
+          <h3 class="card-h"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8M23 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></svg>Professional</h3>
+          <div class="chips"><span class="chip"><img src="assets/icons/chart.svg" alt="" width="16" height="16" />Inventory &amp; sales monitoring</span><span class="chip"><img src="assets/icons/wrench.svg" alt="" width="16" height="16" />Technical troubleshooting</span><span class="chip"><img src="assets/icons/users.svg" alt="" width="16" height="16" />Cross-functional teamwork</span><span class="chip"><img src="assets/icons/headset.svg" alt="" width="16" height="16" />Customer service</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <p class="eyebrow">Academic Project · Capstone</p>
+
+      <article class="project">
+        <header class="project-head">
+          <div>
+            <h2 class="project-title">SENYASK: A Filipino Sign Language Recognition &amp; Learning Web App</h2>
+            <div class="tags">
+              <span class="tag"><svg viewBox="0 0 24 24"><path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8z"/><path d="M14 3v5h5"/></svg>Capstone Project</span>
+              <span class="tag"><svg viewBox="0 0 24 24"><path d="M22 10 12 5 2 10l10 5 10-5z"/></svg>B.S. Information Technology</span>
+              <span class="tag"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>Lead Developer</span>
+              <span class="tag"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg>May – Nov 2026</span>
+            </div>
+          </div>
+          <img class="project-logo" src="assets/senyask/senyask-logo.png" alt="SENYASK logo" />
+        </header>
+
+        <div class="project-body">
+          <div class="project-left">
+            <h3 class="card-h"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>Project Overview</h3>
+            <p>
+              SENYASK turns a webcam into a Filipino Sign Language (FSL) interpreter and tutor. It recognizes
+              alphabet letters, numbers, words, and phrases in real time, composes the signed words into natural
+              sentences in <strong>English, Filipino, and Ilocano</strong>, and teaches FSL through tutorials,
+              camera-checked practice, quizzes, and conversation challenges. Built as a two-person capstone at
+              STI College Baguio, where I led development of the AI recognition pipeline.
+            </p>
+
+            <h3 class="card-h"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg>Objectives</h3>
+            <ul class="checks">
+              <li>Recognize FSL signs from an ordinary webcam or phone camera</li>
+              <li>Translate sign sequences into readable sentences in three languages</li>
+              <li>Make learning FSL interactive with instant camera feedback</li>
+              <li>Keep recognition private and fast by running it in the browser</li>
+              <li>Work reliably across desktops and mobile devices</li>
+            </ul>
+          </div>
+
+          <div class="project-right">
+            <h3 class="card-h"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="m3 15 5-5 4 4 3-3 6 6"/></svg>Project Screenshots</h3>
+            <figure class="shot main-shot">
+              <button class="zoom" data-full="assets/senyask/d_translator.jpg" data-caption="Translator: live sign-to-text with the Smart Sentence Builder">
+                <img src="assets/senyask/d_translator.jpg" alt="SENYASK Translator page recognizing the signs HELLO and GOOD MORNING and composing 'Hello. Good morning.'" />
+              </button>
+              <figcaption>Translator: live sign-to-text with Smart Sentence</figcaption>
+            </figure>
+            <div class="thumbs">
+              <button class="zoom" data-full="assets/senyask/d_home.jpg" data-caption="Home: daily tasks, streak, quiz keys and learning progress"><img src="assets/senyask/d_home.jpg" alt="SENYASK home dashboard" loading="lazy" /></button>
+              <button class="zoom" data-full="assets/senyask/d_practice_cam.jpg" data-caption="Practice: the camera checks your handshape against the reference"><img src="assets/senyask/d_practice_cam.jpg" alt="SENYASK practice screen for the letter A" loading="lazy" /></button>
+              <button class="zoom" data-full="assets/senyask/d_lesson_grid.jpg" data-caption="Tutorials: FSL alphabet lessons with video references"><img src="assets/senyask/d_lesson_grid.jpg" alt="SENYASK FSL alphabet tutorial grid" loading="lazy" /></button>
+              <button class="zoom" data-full="assets/senyask/d_quiz_signit.jpg" data-caption="Quiz: 'Sign it' mode graded by the recognizer"><img src="assets/senyask/d_quiz_signit.jpg" alt="SENYASK Sign it quiz" loading="lazy" /></button>
+              <button class="zoom" data-full="assets/senyask/d_convo_reply.jpg" data-caption="Conversation challenge: reply to a signed video in FSL"><img src="assets/senyask/d_convo_reply.jpg" alt="SENYASK conversation challenge" loading="lazy" /></button>
+              <button class="zoom" data-full="assets/senyask/d_plans.jpg" data-caption="Plans: Free, Translation, Learning, and Combo tiers"><img src="assets/senyask/d_plans.jpg" alt="SENYASK subscription plans page" loading="lazy" /></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-foot">
+          <div>
+            <h3 class="card-h"><svg viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.8-3.8a6 6 0 0 1-7.9 7.9l-6.9 6.9a2.1 2.1 0 0 1-3-3l6.9-6.9a6 6 0 0 1 7.9-7.9z"/></svg>Tools &amp; Technologies</h3>
+            <div class="chips">
+              <span class="chip"><img src="assets/icons/react.svg" alt="" width="16" height="16" />React</span><span class="chip"><img src="assets/icons/vite.svg" alt="" width="16" height="16" />Vite</span><span class="chip"><img src="assets/icons/javascript.svg" alt="" width="16" height="16" />JavaScript</span>
+              <span class="chip"><img src="assets/icons/python.svg" alt="" width="16" height="16" />Python</span><span class="chip"><img src="assets/icons/mediapipe.svg" alt="" width="16" height="16" />MediaPipe</span><span class="chip"><img src="assets/icons/scikitlearn.svg" alt="" width="16" height="16" />scikit-learn</span>
+              <span class="chip"><img src="assets/icons/firebase.svg" alt="" width="16" height="16" />Firebase</span><span class="chip"><img src="assets/icons/cloudflareworkers.svg" alt="" width="16" height="16" />Cloudflare Workers</span><span class="chip"><img src="assets/icons/googlegemini.svg" alt="" width="16" height="16" />Gemini API</span>
+            </div>
+          </div>
+          <div>
+            <h3 class="card-h"><svg viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="m7 14 4-4 4 4 5-5"/></svg>Key Highlights</h3>
+            <ul class="checks">
+              <li>Extra Trees classifier on a 141-value feature vector from MediaPipe landmarks</li>
+              <li>Recognition runs fully in the browser, with no prediction server</li>
+              <li>Feature extraction mirrored in Python and JavaScript, cross-checked for identical output</li>
+              <li>Smart Sentence via a Gemini proxy, with an offline rule-based fallback</li>
+              <li>Passed the capstone final defense (November 2026)</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="card-h"><svg viewBox="0 0 24 24"><path d="M12 15a6 6 0 1 0 0-12 6 6 0 0 0 0 12z"/><path d="M8.2 13.9 7 21l5-3 5 3-1.2-7.1"/></svg>What I Learned</h3>
+            <p>
+              SENYASK taught me to take machine learning from a training notebook all the way into a product
+              people use, handling messy real-world input like different signers, cameras, and screen shapes.
+              I learned to design fallbacks so the app keeps working when a service is slow, and to make
+              decisions based on testing rather than guesses.
+            </p>
+          </div>
+        </div>
+
+        <div class="cta">
+          <p><svg viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/></svg>
+            This project shows my ability to turn applied machine learning into an accessible, real-world tool.</p>
+          <div class="cta-btns">
+            <a class="btn primary" href="https://senyask-e2dbb.web.app" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>Try the Live App
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <p class="eyebrow mt">Coursework Project</p>
+      <article class="project small">
+        <div class="small-grid">
+          <div>
+            <h2 class="project-title sm">Self-Service Kiosk System</h2>
+            <div class="tags">
+              <span class="tag">Lead Developer</span><span class="tag">Sep – Nov 2025</span>
+            </div>
+            <p>
+              A self-service ordering kiosk with two sides: a customer interface for browsing items and placing
+              orders, and a cashier interface for processing and managing incoming transactions, backed by a
+              MySQL database.
+            </p>
+            <div class="chips"><span class="chip"><img src="assets/icons/mysql.svg" alt="" width="16" height="16" />MySQL</span><span class="chip"><img src="assets/icons/database.svg" alt="" width="16" height="16" />Database Design</span><span class="chip"><img src="assets/icons/layout.svg" alt="" width="16" height="16" />UI Design</span></div>
+          </div>
+          <ul class="checks">
+            <li>Customer-end ordering flow</li>
+            <li>Cashier-end transaction management</li>
+            <li>Order data stored and managed in MySQL</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <section id="certifications" class="section">
+      <p class="eyebrow">Certifications &amp; Activities</p>
+      <h2 class="section-title">Recognition along the way</h2>
+      <div class="filters" role="tablist" aria-label="Filter certificates">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="tech">Tech &amp; Competitions</button>
+        <button class="filter" data-filter="academic">Academic</button>
+        <button class="filter" data-filter="service">Training &amp; Service</button>
+      </div>
+      <div class="cert-grid" id="certGrid"></div>
+    </section>
+
+    <section id="contact" class="section">
+      <p class="eyebrow">Contact</p>
+      <h2 class="section-title">Let's work together</h2>
+      <p class="lead">I'm open to junior developer and IT roles. The quickest way to reach me is by email.</p>
+      <div class="contact-grid">
+        <a class="card contact-card" href="mailto:jirah.nidoy@gmail.com">
+          <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+          <span class="k">Email</span><span class="v">jirah.nidoy@gmail.com</span>
+        </a>
+        <div class="card contact-card">
+          <svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+          <span class="k">Location</span><span class="v">La Trinidad, Benguet, PH</span>
+        </div>
+        <a class="card contact-card" href="assets/Nidoy_Jirah_Resume.pdf" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8z"/><path d="M14 3v5h5M12 11v6m0 0-3-3m3 3 3-3"/></svg>
+          <span class="k">Résumé</span><span class="v">Download PDF</span>
+        </a>
+      </div>
+      <footer class="footer">© <span id="year"></span> Jirah T. Nidoy · Built with HTML, CSS &amp; JavaScript · Hosted on GitHub Pages</footer>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image preview" hidden>
+    <button class="lb-close" id="lbClose" aria-label="Close preview">
+      <svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+    <figure>
+      <img id="lbImg" alt="" />
+      <figcaption id="lbCap"></figcaption>
+    </figure>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
